@@ -1,1 +1,1 @@
-# dental_scraping_python_selenium_beautifulsoup
+# python_scraping

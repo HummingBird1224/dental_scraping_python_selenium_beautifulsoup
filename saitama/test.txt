@@ -1,0 +1,567 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link type="text/css" rel="stylesheet" href="/saitama/kensaku/style11/Styles.css" /><link type="text/css" rel="stylesheet" href="/saitama/kensaku/style/StylesDefault.css" id="myLinkCSS" /><script type="text/javascript" src="/saitama/kensaku/js/IyakuInfo.js" ></script><title>
+	埼玉県医療機能情報提供システム
+</title></head>
+
+<body>
+    <div id="wrapper">
+            <noscript>
+                <div id="JavaScript">
+                    ブラウザのJavaScript設定を有効にしてご覧ください。
+                </div>
+            </noscript>
+        <form name="aspnetForm" method="post" action="IryoSisetsuInfo.aspx?sy=m&amp;cm=s&amp;di=n&amp;id=11262320&amp;ir=03" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2Mjk1MzgxNjFkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYSBQ5jdGwwMCRidG5NZW51MQUOY3RsMDAkYnRuTWVudTIFDmN0bDAwJGJ0bk1lbnUzBQ5jdGwwMCRidG5NZW51NAUOY3RsMDAkYnRuTWVudTUFDmN0bDAwJGJ0bk1lbnU2BQ5jdGwwMCRidG5NZW51NwUsY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyQ29udGVudHMkYnRuRGV0YWlsMDEFLGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlckNvbnRlbnRzJGJ0bkRldGFpbDAyBSxjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJDb250ZW50cyRidG5EZXRhaWwwMwUsY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyQ29udGVudHMkYnRuRGV0YWlsMDQFLGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlckNvbnRlbnRzJGJ0bkRldGFpbDA1BSxjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJDb250ZW50cyRidG5EZXRhaWwwNgUsY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyQ29udGVudHMkYnRuRGV0YWlsMDcFLGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlckNvbnRlbnRzJGJ0bkRldGFpbDA4BSxjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJDb250ZW50cyRidG5EZXRhaWwwOQUsY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyQ29udGVudHMkYnRuRGV0YWlsMTAFLGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlckNvbnRlbnRzJGJ0bkRldGFpbDExBStjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJDb250ZW50cyRNdWx0aVZpZXcxDw9kZmRzy/o5KYk8VzT3AzoMHKmjxXsnpQ==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3E3E384C" />
+<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="SqI5tckXkHx4yn0u9o_6Fvg5Ea4g3rLXGnQvWkyjs7135GXHqYaW5i_WkqodRCry_rDMoeTXR7rW1Y6OVtlKauBTdMgZDBUbGguZUqRHjc3C-kgL0" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWFQLknuGNBAL5yL29BgL5yLm9BgL5yLW9BgL5yLG9BgL5yK29BgL5yKm9BgL5yKW9BgLJ56RSApDDibEBApDDnYwKApDDsecCApDDxcILApDD2Z0EApDD7fgMApDDgdQFApDD1fwCApDD6dcLAvXZ18AOAvXZ65sHAuaT0rEJVehZhTGO8m7PDr4Vnp8WoCl+AqY=" />
+            <div id="Header">
+                <div id="ctl00_myHeaderLink" class="HeaderLink">
+                    &nbsp;
+                    <a id="ctl00_lnkHeader2" href="info11/manual/manual11_Mokuji.htm" target="_blank">操作方法</a>&nbsp;
+                    <a id="ctl00_lnkHeader3" href="info11/yougo/yougo11_iMokuji.htm" target="_blank">用語説明</a>&nbsp;
+                    <a id="ctl00_lnkHeader4" href="Faq.aspx">よくある質問</a>&nbsp;
+                    <a id="ctl00_lnkHeader5" href="SiteMap.aspx">サイトマップ</a>
+                </div>
+                <br clear="none" /> 
+            </div>
+            <div id="Menu">            
+                <div id="SiteMapPath">
+                    <span id="ctl00_SiteMapPath1"><a href="#ctl00_SiteMapPath1_SkipLink"><img alt="ナビゲーション リンクのスキップ" height="0" width="0" src="/saitama/WebResource.axd?d=UrxLWBgKNqIHIqWXD7QOWVErzzc6eegXkelgNjHJP8NkoETfCJHiphP12lEfXAGntJ0aJL-yC_3d78NJcecSbF-ngRQ1&amp;t=637812280157966200" border="0" /></a><span><a title="トップページへ" href="/saitama/Default.aspx">トップ</a></span><span> &gt; </span><span><a href="/saitama/kensaku/SimpleSearch.aspx?sy=m">かんたん検索(医療機関)</a></span><span> &gt; </span><span><a href="/saitama/kensaku/KensakuIchiran.aspx?sy=m&amp;cm=s">検索結果一覧(医療機関)</a></span><span> &gt; </span><span>施設詳細</span><a id="ctl00_SiteMapPath1_SkipLink"></a></span>
+                </div>
+                <div id="ctl00_myCharSize" class="CharSize">
+                    <img id="ctl00_imgChangeSize" src="img11/CharSize/CharSize-11.gif" alt="文字のサイズ" border="0" />
+                    <img id="ctl00_imgCangeSizeBig" onmouseover="src='/saitama/kensaku/img11/CharSize/CharSize_Large1-11.gif'" onmouseout="src='/saitama/kensaku/img11/CharSize/CharSize_Large0-11.gif'" onclick="javascript:changeCharSize('2')" src="img11/CharSize/CharSize_Large0-11.gif" alt="文字サイズを大きくする" border="0" />
+                    <img id="ctl00_imgCangeSizeDefault" onmouseover="src='/saitama/kensaku/img11/CharSize/CharSize_Default1-11.gif'" onmouseout="src='/saitama/kensaku/img11/CharSize/CharSize_Default0-11.gif'" onclick="javascript:changeCharSize('1')" src="img11/CharSize/CharSize_Default0-11.gif" alt="標準の文字サイズにする" border="0" />
+                    <img id="ctl00_imgCangeSizeSmall" onmouseover="src='/saitama/kensaku/img11/CharSize/CharSize_Small1-11.gif'" onmouseout="src='/saitama/kensaku/img11/CharSize/CharSize_Small0-11.gif'" onclick="javascript:changeCharSize('0')" src="img11/CharSize/CharSize_Small0-11.gif" alt="文字サイズを小さくする" border="0" />
+                </div>
+                <div id="ctl00_myContentsMenu" class="ContentsMenu">
+                    
+                    <input type="image" name="ctl00$btnMenu1" id="ctl00_btnMenu1" onmouseover="src='img11/Button/Menu/Menu101-11.gif'" onmouseout="src='img11/Button/Menu/Menu001-11.gif'" src="img11/Button/Menu/Menu001-11.gif" alt="医療機関をさがす(かんたん検索)" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu1&quot;, &quot;&quot;, false, &quot;&quot;, &quot;SimpleSearch.aspx?sy=m&quot;, false, false))" border="0" />
+                    <input type="image" name="ctl00$btnMenu2" id="ctl00_btnMenu2" onmouseover="src='img11/Button/Menu/Menu102-11.gif'" onmouseout="src='img11/Button/Menu/Menu002-11.gif'" src="img11/Button/Menu/Menu002-11.gif" alt="医療機関をさがす(キーワード検索)" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu2&quot;, &quot;&quot;, false, &quot;&quot;, &quot;KeywordSearch.aspx?sy=m&quot;, false, false))" border="0" />
+                    <input type="image" name="ctl00$btnMenu3" id="ctl00_btnMenu3" onmouseover="src='img11/Button/Menu/Menu103-11.gif'" onmouseout="src='img11/Button/Menu/Menu003-11.gif'" src="img11/Button/Menu/Menu003-11.gif" alt="医療機関をさがす(目的別検索)" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu3&quot;, &quot;&quot;, false, &quot;&quot;, &quot;CategorySearch.aspx?sy=m&quot;, false, false))" border="0" />
+                    <input type="image" name="ctl00$btnMenu4" id="ctl00_btnMenu4" onmouseover="src='img11/Button/Menu/Menu104-11.gif'" onmouseout="src='img11/Button/Menu/Menu004-11.gif'" src="img11/Button/Menu/Menu004-11.gif" alt="薬局をさがす(かんたん検索)" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu4&quot;, &quot;&quot;, false, &quot;&quot;, &quot;SimpleSearch.aspx?sy=p&quot;, false, false))" border="0" />
+                    <input type="image" name="ctl00$btnMenu5" id="ctl00_btnMenu5" onmouseover="src='img11/Button/Menu/Menu105-11.gif'" onmouseout="src='img11/Button/Menu/Menu005-11.gif'" src="img11/Button/Menu/Menu005-11.gif" alt="薬局をさがす(キーワード検索)" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu5&quot;, &quot;&quot;, false, &quot;&quot;, &quot;KeywordSearch.aspx?sy=p&quot;, false, false))" border="0" />
+                    <input type="image" name="ctl00$btnMenu6" id="ctl00_btnMenu6" onmouseover="src='img11/Button/Menu/Menu106-11.gif'" onmouseout="src='img11/Button/Menu/Menu006-11.gif'" src="img11/Button/Menu/Menu006-11.gif" alt="薬局をさがす(目的別検索)" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu6&quot;, &quot;&quot;, false, &quot;&quot;, &quot;CategorySearch.aspx?sy=p&quot;, false, false))" border="0" />
+                    <input type="image" name="ctl00$btnMenu7" id="ctl00_btnMenu7" onmouseover="src='img11/Button/Menu/Menu107-11.gif'" onmouseout="src='img11/Button/Menu/Menu007-11.gif'" src="img11/Button/Menu/Menu007-11.gif" alt="比較候補をみる" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu7&quot;, &quot;&quot;, false, &quot;&quot;, &quot;KouhoIchiran.aspx&quot;, false, false))" border="0" />                                        
+                </div>                
+                <div id="ctl00_BackButton" class="backbuttonPlace">
+                    <input type="button" id="btnback1" value="戻る" onclick="history.back();"/>
+                    </div>
+            </div>
+            
+            <div id="Contents">
+                
+    <div class="InfoTitle">
+        <div class="InfoTitleName">
+            <b>施設詳細情報</b>
+        </div>
+        <div class="InfoHoukokubi">
+            <b>
+               <span id="ctl00_ContentPlaceHolderContents_lblLastUpdateDate" style="display:inline-block;">最終報告日2023年09月18日</span>
+            </b>
+        </div>
+    </div>
+    <br clear="all" />
+    <div class="Contents">
+        <div class="Literal">
+            <span id="ctl00_ContentPlaceHolderContents_lblLiteral1" style="display:inline-block;">※ 本ホームページでは、病院等から受けた医療機能情報をそのまま掲載しております。このため、該当のない項目あるいは報告されていない項目については、空白又は０（ゼロ）で表示されている場合もあります。<br/>    ※ 場合により内容に一部変更が生じている可能性もありますので、医療機関に最新の情報をご確認ください。<br/>    ※ 特殊な文字は代替文字となっています。<br/>※ 本報告は最終報告日の内容となります。また、実績データについては、最終報告日の前年度のデータとなります。</span>
+        </div>
+        
+<div>
+    <table id="ctl00_ContentPlaceHolderContents_ctl58_TableSisetshuJyoho" class="DetailTable">
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblShisetsuNameKana" class="ShisetsuJyohoTitle10" style="height: 10px">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuNameKanaTitle" font-color="#3366CC">名称カナ</span>
+            </td>
+		<td class="DetailData10" colspan="2">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuNameKana" font-color="#3366CC">シモヤマグチデンタルクリック</span>
+            </td>
+		<td class="tblShisetsuName" rowspan="3" align="right">
+                
+                <input type="submit" name="ctl00$ContentPlaceHolderContents$ctl58$btnMikurabe" value="比較候補
+に追加" id="ctl00_ContentPlaceHolderContents_ctl58_btnMikurabe" />
+                
+            </td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblShisetsuName" class="ShisetsuJyohoTitle11" style="height: 21px">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuNameTitle">名 称</span>
+            </td>
+		<td class="DetailData11" colspan="2" style="height: 21px">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuName">下山口デンタルクリニック</span>
+            </td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblShisetsuNameEng" class="ShisetsuJyohoTitle12">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuNameEngTitle" font-color="#3366CC">ローマ字</span>
+            </td>
+		<td class="DetailData12" colspan="2" valign="top">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuNameEng">Shimoyamaguchi Dental Clinic</span>
+            </td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblAddressKana" class="ShisetsuJyohoTitle10">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAddressKanaTitle">所在地カナ</span></td>
+		<td class="DetailData10">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAddressKana">トコロザワシ</span></td>
+		<td class="ShisetsuJyohoTitle">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiTelephoneNo0Title">代表</span></td>
+		<td class="DetailData">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiTelephoneNo0">0429415747    </span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblAddress" class="ShisetsuJyohoTitle11">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAddressTitle">所在地</span></td>
+		<td class="DetailData11">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblPostalCodeNo">359     </span>
+                &nbsp;
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAddress">所沢市山口１１２９－１　テルミハイム１０１</span></td>
+		<td class="ShisetsuJyohoTitle">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiTelephoneNoTitle">案内</span></td>
+		<td class="DetailData">
+                </td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblAddressEng" class="ShisetsuJyohoTitle12">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAddressEngTitle">英語表記</span></td>
+		<td class="DetailData12">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAddressEng">1129-1,Yamaguchi,Tokorozawa                                                                         </span></td>
+		<td class="ShisetsuJyohoTitle">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiFaxNoTitle">ＦＡＸ</span></td>
+		<td class="DetailData">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiFaxNo">0429415748    </span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblIcon" class="ShisetsuJyohoTitle13" rowspan="2">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuAppealTitle">施設の特徴</span>
+            </td>
+		<td class="DetailData" valign="middle" rowspan="2">
+                <div id="ctl00_ContentPlaceHolderContents_ctl58_pnlIcon">
+			
+                    <img id="ctl00_ContentPlaceHolderContents_ctl58_imgIcon1" src="img11/Icon/IryoIcon2-11.gif" alt="駐車場あり" border="0" />
+                    
+                    <img id="ctl00_ContentPlaceHolderContents_ctl58_imgIcon3" src="img11/Icon/IryoIcon4-11.gif" alt="車椅子対応あり" border="0" />
+                    <img id="ctl00_ContentPlaceHolderContents_ctl58_imgIcon4" src="img11/Icon/IryoIcon5-11.gif" alt="受動喫煙防止措置あり" border="0" />
+                    
+                    
+                    
+                    <img id="ctl00_ContentPlaceHolderContents_ctl58_imgIcon8" src="img11/Icon/IryoIcon10-11.gif" alt="休日・夜間対応あり" border="0" />
+                    
+                    
+                    &nbsp;
+                    <a id="ctl00_ContentPlaceHolderContents_ctl58_linkIcon" href="/saitama/kensaku/info11/icon/IconInfo01-11.html" target="_blank">アイコンの説明</a>
+                
+		</div>
+            </td>
+		<td class="ShisetsuJyohoTitle">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiTelephoneNoYasumiTitle">休日</span></td>
+		<td class="DetailData">
+                </td>
+	</tr>
+	<tr>
+		<td class="ShisetsuJyohoTitle">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiTelephoneNoYoruTitle">夜間</span></td>
+		<td class="DetailData">
+                </td>
+	</tr>
+</table>
+               
+    <br />
+</div>
+
+
+        <div id="ImageButton">
+            <div id="ctl00_ContentPlaceHolderContents_pnlImageButton">
+	
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail01" id="ctl00_ContentPlaceHolderContents_btnDetail01" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail201-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail201-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail201-11.gif" alt="基本情報" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail02" id="ctl00_ContentPlaceHolderContents_btnDetail02" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail102-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail002-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail002-11.gif" alt="診療時間・外来受付時間" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail03" id="ctl00_ContentPlaceHolderContents_btnDetail03" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail103-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail003-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail003-11.gif" alt="外国人・障害者へのサポート等" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail04" id="ctl00_ContentPlaceHolderContents_btnDetail04" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail104-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail004-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail004-11.gif" alt="保険指定等" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail05" id="ctl00_ContentPlaceHolderContents_btnDetail05" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail105-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail005-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail005-11.gif" alt="専門医・施設設備" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail06" id="ctl00_ContentPlaceHolderContents_btnDetail06" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail106-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail006-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail006-11.gif" alt="検査・治療実績" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail07" id="ctl00_ContentPlaceHolderContents_btnDetail07" onmouseover="src='img11/Button/Tab/IYAKU03/IYAKU03Detail107-11_2009.gif'" onmouseout="src='img11/Button/Tab/IYAKU03/IYAKU03Detail007-11_2009.gif'" src="img11/Button/Tab/IYAKU03/IYAKU03Detail007-11_2009.gif" alt="専門外来・健康診査・予防接種" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail08" id="ctl00_ContentPlaceHolderContents_btnDetail08" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail108-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail008-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail008-11.gif" alt="在宅医療" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail09" id="ctl00_ContentPlaceHolderContents_btnDetail09" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail111-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail011-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail011-11.gif" alt="人員配置等" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail10" id="ctl00_ContentPlaceHolderContents_btnDetail10" onmouseover="src='img11/Button/Tab/IYAKU03/IYAKU03Detail109-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU03/IYAKU03Detail009-11.gif'" src="img11/Button/Tab/IYAKU03/IYAKU03Detail009-11.gif" alt="診療所内の設備・窓口" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail11" id="ctl00_ContentPlaceHolderContents_btnDetail11" onmouseover="src='img11/Button/Tab/MAP/Map100-11.gif'" onmouseout="src='img11/Button/Tab/MAP/Map000-11.gif'" src="img11/Button/Tab/MAP/Map000-11.gif" alt="地図" border="0" />
+            
+</div>
+        </div>
+        <div>
+            
+                <table id="ctl00_ContentPlaceHolderContents_tblData1" class="DetailTable">
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblKaisetsuNameKana" class="DetailTitle">開設者(カナ)</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblKaisetsuNameKana" style="display:inline-block;">フシミカズアキ</span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblKaisetsuName" class="DetailTitle">開設者</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblKaisetsuName" style="display:inline-block;">伏見　一章</span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblKanNameKana" class="DetailTitle">管理者(カナ)</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblKanNameKana" style="display:inline-block;">フシミカズアキ</span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblKanName" class="DetailTitle">管理者</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblKanName" style="display:inline-block;">伏見一章</span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblKoutsu" class="DetailTitle">主な利用交通手段</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblKoutsu" style="display:inline-block;">西武鉄道 狭山線 下山口駅 徒歩 7分</span>
+                            </td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblChushajo" class="DetailTitle">駐車場</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblParking" style="display:inline-block;">駐車場あり 無料駐車場 6台</span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblHomePage" class="DetailTitle">ホームページアドレス</td>
+		<td class="DetailData">
+                                
+                                <a id="ctl00_ContentPlaceHolderContents_hlHomePageAddress" onClick="if (!(kakunin('ここからは各施設が独自に作成した情報です。埼玉県とは関係ありません。'))) { return(false); }" onkeypress="if (!(kakunin(event.keyCode))) { return(false); };" href="https://shimoyamaguchi.dental-net.jp/" target="_blank" style="display:inline-block;">https://shimoyamaguchi.dental-net.jp/</a>
+                            </td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblEmail" class="DetailTitle">電子メールアドレス</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblMailAddress" style="display:inline-block;"></span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblShinryoKamoku" class="DetailTitle" style="height: 21px">診療科目</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblShinryoKamoku" style="display:inline-block;">歯科, 歯科口腔外科</span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblYoyaku" class="DetailTitle">予約診療</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblYoyaku"><STRONG> 予約診療の実施 </STRONG><br/>実施していない<br/><br/></span>
+                                <span id="ctl00_ContentPlaceHolderContents_lblYoyakuShudan"><STRONG> 予約の内容 </STRONG><br/>&nbsp<STRONG> 初診・再診の予約 </STRONG><br/>&nbsp&nbsp初診, 再診<br/>&nbsp<STRONG> 診療時間の予約 </STRONG><br/>&nbsp <br/>&nbsp<STRONG> 予約の手段 </STRONG><br/>&nbsp 電話  0429415747</span>
+                                <span id="ctl00_ContentPlaceHolderContents_lblYoyakuKamoku"></span>
+                            </td>
+	</tr>
+</table>
+
+                    
+                    
+                    
+                    
+                    
+        </div>
+    </div>
+    <input type="hidden" name="ctl00$ContentPlaceHolderContents$hidMapScaleIndex" id="ctl00_ContentPlaceHolderContents_hidMapScaleIndex" />
+
+            </div>
+            <div id="Footer" style="clear:both">
+                <div id="ctl00_myFooterLink" class="FooterLink">
+                    <a id="ctl00_lnkFooter1" href="info11/info11.html#02" target="_blank">このシステムについて</a>&nbsp;
+                    <a id="ctl00_lnkFooter2" href="info11/info11.html#03" target="_blank">個人情報について</a>&nbsp;
+                    <a id="ctl00_lnkFooter3" href="info11/link/Link-11.html" target="_blank">リンク</a>&nbsp;
+                    <a id="ctl00_lnkFooter4" href="info11/info11.html#04" target="_blank">お問合せ先</a>&nbsp;
+                    
+                </div>
+                <div id="Date">
+                    <span id="ctl00_lblDate" style="display:inline-block;">2023/09/20 21:09:10</span>&nbsp;
+                </div>
+                <div id="Version">
+                    <span id="ctl00_lblVersion">Version 1.0.2</span>
+                </div>
+            </div>
+        </form> 
+    </div>
+</body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link type="text/css" rel="stylesheet" href="/saitama/kensaku/style11/Styles.css" /><link type="text/css" rel="stylesheet" href="/saitama/kensaku/style/StylesDefault.css" id="myLinkCSS" /><script type="text/javascript" src="/saitama/kensaku/js/IyakuInfo.js" ></script><title>
+	埼玉県医療機能情報提供システム
+</title></head>
+
+<body>
+    <div id="wrapper">
+            <noscript>
+                <div id="JavaScript">
+                    ブラウザのJavaScript設定を有効にしてご覧ください。
+                </div>
+            </noscript>
+        <form name="aspnetForm" method="post" action="IryoSisetsuInfo.aspx?sy=m&amp;cm=s&amp;di=n&amp;id=11262320&amp;ir=03" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2Mjk1MzgxNjFkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYSBQ5jdGwwMCRidG5NZW51MQUOY3RsMDAkYnRuTWVudTIFDmN0bDAwJGJ0bk1lbnUzBQ5jdGwwMCRidG5NZW51NAUOY3RsMDAkYnRuTWVudTUFDmN0bDAwJGJ0bk1lbnU2BQ5jdGwwMCRidG5NZW51NwUsY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyQ29udGVudHMkYnRuRGV0YWlsMDEFLGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlckNvbnRlbnRzJGJ0bkRldGFpbDAyBSxjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJDb250ZW50cyRidG5EZXRhaWwwMwUsY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyQ29udGVudHMkYnRuRGV0YWlsMDQFLGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlckNvbnRlbnRzJGJ0bkRldGFpbDA1BSxjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJDb250ZW50cyRidG5EZXRhaWwwNgUsY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyQ29udGVudHMkYnRuRGV0YWlsMDcFLGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlckNvbnRlbnRzJGJ0bkRldGFpbDA4BSxjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJDb250ZW50cyRidG5EZXRhaWwwOQUsY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyQ29udGVudHMkYnRuRGV0YWlsMTAFLGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlckNvbnRlbnRzJGJ0bkRldGFpbDExBStjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJDb250ZW50cyRNdWx0aVZpZXcxDw9kZmRzy/o5KYk8VzT3AzoMHKmjxXsnpQ==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3E3E384C" />
+<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="SqI5tckXkHx4yn0u9o_6Fvg5Ea4g3rLXGnQvWkyjs7135GXHqYaW5i_WkqodRCry_rDMoeTXR7rW1Y6OVtlKauBTdMgZDBUbGguZUqRHjc3C-kgL0" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWFQLknuGNBAL5yL29BgL5yLm9BgL5yLW9BgL5yLG9BgL5yK29BgL5yKm9BgL5yKW9BgLJ56RSApDDibEBApDDnYwKApDDsecCApDDxcILApDD2Z0EApDD7fgMApDDgdQFApDD1fwCApDD6dcLAvXZ18AOAvXZ65sHAuaT0rEJVehZhTGO8m7PDr4Vnp8WoCl+AqY=" />
+            <div id="Header">
+                <div id="ctl00_myHeaderLink" class="HeaderLink">
+                    &nbsp;
+                    <a id="ctl00_lnkHeader2" href="info11/manual/manual11_Mokuji.htm" target="_blank">操作方法</a>&nbsp;
+                    <a id="ctl00_lnkHeader3" href="info11/yougo/yougo11_iMokuji.htm" target="_blank">用語説明</a>&nbsp;
+                    <a id="ctl00_lnkHeader4" href="Faq.aspx">よくある質問</a>&nbsp;
+                    <a id="ctl00_lnkHeader5" href="SiteMap.aspx">サイトマップ</a>
+                </div>
+                <br clear="none" /> 
+            </div>
+            <div id="Menu">            
+                <div id="SiteMapPath">
+                    <span id="ctl00_SiteMapPath1"><a href="#ctl00_SiteMapPath1_SkipLink"><img alt="ナビゲーション リンクのスキップ" height="0" width="0" src="/saitama/WebResource.axd?d=UrxLWBgKNqIHIqWXD7QOWVErzzc6eegXkelgNjHJP8NkoETfCJHiphP12lEfXAGntJ0aJL-yC_3d78NJcecSbF-ngRQ1&amp;t=637812280157966200" border="0" /></a><span><a title="トップページへ" href="/saitama/Default.aspx">トップ</a></span><span> &gt; </span><span><a href="/saitama/kensaku/SimpleSearch.aspx?sy=m">かんたん検索(医療機関)</a></span><span> &gt; </span><span><a href="/saitama/kensaku/KensakuIchiran.aspx?sy=m&amp;cm=s">検索結果一覧(医療機関)</a></span><span> &gt; </span><span>施設詳細</span><a id="ctl00_SiteMapPath1_SkipLink"></a></span>
+                </div>
+                <div id="ctl00_myCharSize" class="CharSize">
+                    <img id="ctl00_imgChangeSize" src="img11/CharSize/CharSize-11.gif" alt="文字のサイズ" border="0" />
+                    <img id="ctl00_imgCangeSizeBig" onmouseover="src='/saitama/kensaku/img11/CharSize/CharSize_Large1-11.gif'" onmouseout="src='/saitama/kensaku/img11/CharSize/CharSize_Large0-11.gif'" onclick="javascript:changeCharSize('2')" src="img11/CharSize/CharSize_Large0-11.gif" alt="文字サイズを大きくする" border="0" />
+                    <img id="ctl00_imgCangeSizeDefault" onmouseover="src='/saitama/kensaku/img11/CharSize/CharSize_Default1-11.gif'" onmouseout="src='/saitama/kensaku/img11/CharSize/CharSize_Default0-11.gif'" onclick="javascript:changeCharSize('1')" src="img11/CharSize/CharSize_Default0-11.gif" alt="標準の文字サイズにする" border="0" />
+                    <img id="ctl00_imgCangeSizeSmall" onmouseover="src='/saitama/kensaku/img11/CharSize/CharSize_Small1-11.gif'" onmouseout="src='/saitama/kensaku/img11/CharSize/CharSize_Small0-11.gif'" onclick="javascript:changeCharSize('0')" src="img11/CharSize/CharSize_Small0-11.gif" alt="文字サイズを小さくする" border="0" />
+                </div>
+                <div id="ctl00_myContentsMenu" class="ContentsMenu">
+                    
+                    <input type="image" name="ctl00$btnMenu1" id="ctl00_btnMenu1" onmouseover="src='img11/Button/Menu/Menu101-11.gif'" onmouseout="src='img11/Button/Menu/Menu001-11.gif'" src="img11/Button/Menu/Menu001-11.gif" alt="医療機関をさがす(かんたん検索)" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu1&quot;, &quot;&quot;, false, &quot;&quot;, &quot;SimpleSearch.aspx?sy=m&quot;, false, false))" border="0" />
+                    <input type="image" name="ctl00$btnMenu2" id="ctl00_btnMenu2" onmouseover="src='img11/Button/Menu/Menu102-11.gif'" onmouseout="src='img11/Button/Menu/Menu002-11.gif'" src="img11/Button/Menu/Menu002-11.gif" alt="医療機関をさがす(キーワード検索)" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu2&quot;, &quot;&quot;, false, &quot;&quot;, &quot;KeywordSearch.aspx?sy=m&quot;, false, false))" border="0" />
+                    <input type="image" name="ctl00$btnMenu3" id="ctl00_btnMenu3" onmouseover="src='img11/Button/Menu/Menu103-11.gif'" onmouseout="src='img11/Button/Menu/Menu003-11.gif'" src="img11/Button/Menu/Menu003-11.gif" alt="医療機関をさがす(目的別検索)" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu3&quot;, &quot;&quot;, false, &quot;&quot;, &quot;CategorySearch.aspx?sy=m&quot;, false, false))" border="0" />
+                    <input type="image" name="ctl00$btnMenu4" id="ctl00_btnMenu4" onmouseover="src='img11/Button/Menu/Menu104-11.gif'" onmouseout="src='img11/Button/Menu/Menu004-11.gif'" src="img11/Button/Menu/Menu004-11.gif" alt="薬局をさがす(かんたん検索)" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu4&quot;, &quot;&quot;, false, &quot;&quot;, &quot;SimpleSearch.aspx?sy=p&quot;, false, false))" border="0" />
+                    <input type="image" name="ctl00$btnMenu5" id="ctl00_btnMenu5" onmouseover="src='img11/Button/Menu/Menu105-11.gif'" onmouseout="src='img11/Button/Menu/Menu005-11.gif'" src="img11/Button/Menu/Menu005-11.gif" alt="薬局をさがす(キーワード検索)" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu5&quot;, &quot;&quot;, false, &quot;&quot;, &quot;KeywordSearch.aspx?sy=p&quot;, false, false))" border="0" />
+                    <input type="image" name="ctl00$btnMenu6" id="ctl00_btnMenu6" onmouseover="src='img11/Button/Menu/Menu106-11.gif'" onmouseout="src='img11/Button/Menu/Menu006-11.gif'" src="img11/Button/Menu/Menu006-11.gif" alt="薬局をさがす(目的別検索)" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu6&quot;, &quot;&quot;, false, &quot;&quot;, &quot;CategorySearch.aspx?sy=p&quot;, false, false))" border="0" />
+                    <input type="image" name="ctl00$btnMenu7" id="ctl00_btnMenu7" onmouseover="src='img11/Button/Menu/Menu107-11.gif'" onmouseout="src='img11/Button/Menu/Menu007-11.gif'" src="img11/Button/Menu/Menu007-11.gif" alt="比較候補をみる" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnMenu7&quot;, &quot;&quot;, false, &quot;&quot;, &quot;KouhoIchiran.aspx&quot;, false, false))" border="0" />                                        
+                </div>                
+                <div id="ctl00_BackButton" class="backbuttonPlace">
+                    <input type="button" id="btnback1" value="戻る" onclick="history.back();"/>
+                    </div>
+            </div>
+            
+            <div id="Contents">
+                
+    <div class="InfoTitle">
+        <div class="InfoTitleName">
+            <b>施設詳細情報</b>
+        </div>
+        <div class="InfoHoukokubi">
+            <b>
+               <span id="ctl00_ContentPlaceHolderContents_lblLastUpdateDate" style="display:inline-block;">最終報告日2023年09月18日</span>
+            </b>
+        </div>
+    </div>
+    <br clear="all" />
+    <div class="Contents">
+        <div class="Literal">
+            <span id="ctl00_ContentPlaceHolderContents_lblLiteral1" style="display:inline-block;">※ 本ホームページでは、病院等から受けた医療機能情報をそのまま掲載しております。このため、該当のない項目あるいは報告されていない項目については、空白又は０（ゼロ）で表示されている場合もあります。<br/>    ※ 場合により内容に一部変更が生じている可能性もありますので、医療機関に最新の情報をご確認ください。<br/>    ※ 特殊な文字は代替文字となっています。<br/>※ 本報告は最終報告日の内容となります。また、実績データについては、最終報告日の前年度のデータとなります。</span>
+        </div>
+        
+<div>
+    <table id="ctl00_ContentPlaceHolderContents_ctl58_TableSisetshuJyoho" class="DetailTable">
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblShisetsuNameKana" class="ShisetsuJyohoTitle10" style="height: 10px">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuNameKanaTitle" font-color="#3366CC">名称カナ</span>
+            </td>
+		<td class="DetailData10" colspan="2">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuNameKana" font-color="#3366CC">シモヤマグチデンタルクリック</span>
+            </td>
+		<td class="tblShisetsuName" rowspan="3" align="right">
+                
+                <input type="submit" name="ctl00$ContentPlaceHolderContents$ctl58$btnMikurabe" value="比較候補
+に追加" id="ctl00_ContentPlaceHolderContents_ctl58_btnMikurabe" />
+                
+            </td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblShisetsuName" class="ShisetsuJyohoTitle11" style="height: 21px">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuNameTitle">名 称</span>
+            </td>
+		<td class="DetailData11" colspan="2" style="height: 21px">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuName">下山口デンタルクリニック</span>
+            </td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblShisetsuNameEng" class="ShisetsuJyohoTitle12">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuNameEngTitle" font-color="#3366CC">ローマ字</span>
+            </td>
+		<td class="DetailData12" colspan="2" valign="top">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuNameEng">Shimoyamaguchi Dental Clinic</span>
+            </td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblAddressKana" class="ShisetsuJyohoTitle10">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAddressKanaTitle">所在地カナ</span></td>
+		<td class="DetailData10">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAddressKana">トコロザワシ</span></td>
+		<td class="ShisetsuJyohoTitle">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiTelephoneNo0Title">代表</span></td>
+		<td class="DetailData">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiTelephoneNo0">0429415747    </span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblAddress" class="ShisetsuJyohoTitle11">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAddressTitle">所在地</span></td>
+		<td class="DetailData11">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblPostalCodeNo">359     </span>
+                &nbsp;
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAddress">所沢市山口１１２９－１　テルミハイム１０１</span></td>
+		<td class="ShisetsuJyohoTitle">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiTelephoneNoTitle">案内</span></td>
+		<td class="DetailData">
+                </td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblAddressEng" class="ShisetsuJyohoTitle12">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAddressEngTitle">英語表記</span></td>
+		<td class="DetailData12">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAddressEng">1129-1,Yamaguchi,Tokorozawa                                                                         </span></td>
+		<td class="ShisetsuJyohoTitle">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiFaxNoTitle">ＦＡＸ</span></td>
+		<td class="DetailData">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiFaxNo">0429415748    </span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_ctl58_tblIcon" class="ShisetsuJyohoTitle13" rowspan="2">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuAppealTitle">施設の特徴</span>
+            </td>
+		<td class="DetailData" valign="middle" rowspan="2">
+                <div id="ctl00_ContentPlaceHolderContents_ctl58_pnlIcon">
+			
+                    <img id="ctl00_ContentPlaceHolderContents_ctl58_imgIcon1" src="img11/Icon/IryoIcon2-11.gif" alt="駐車場あり" border="0" />
+                    
+                    <img id="ctl00_ContentPlaceHolderContents_ctl58_imgIcon3" src="img11/Icon/IryoIcon4-11.gif" alt="車椅子対応あり" border="0" />
+                    <img id="ctl00_ContentPlaceHolderContents_ctl58_imgIcon4" src="img11/Icon/IryoIcon5-11.gif" alt="受動喫煙防止措置あり" border="0" />
+                    
+                    
+                    
+                    <img id="ctl00_ContentPlaceHolderContents_ctl58_imgIcon8" src="img11/Icon/IryoIcon10-11.gif" alt="休日・夜間対応あり" border="0" />
+                    
+                    
+                    &nbsp;
+                    <a id="ctl00_ContentPlaceHolderContents_ctl58_linkIcon" href="/saitama/kensaku/info11/icon/IconInfo01-11.html" target="_blank">アイコンの説明</a>
+                
+		</div>
+            </td>
+		<td class="ShisetsuJyohoTitle">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiTelephoneNoYasumiTitle">休日</span></td>
+		<td class="DetailData">
+                </td>
+	</tr>
+	<tr>
+		<td class="ShisetsuJyohoTitle">
+                <span id="ctl00_ContentPlaceHolderContents_ctl58_lblAnnaiTelephoneNoYoruTitle">夜間</span></td>
+		<td class="DetailData">
+                </td>
+	</tr>
+</table>
+               
+    <br />
+</div>
+
+
+        <div id="ImageButton">
+            <div id="ctl00_ContentPlaceHolderContents_pnlImageButton">
+	
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail01" id="ctl00_ContentPlaceHolderContents_btnDetail01" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail201-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail201-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail201-11.gif" alt="基本情報" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail02" id="ctl00_ContentPlaceHolderContents_btnDetail02" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail102-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail002-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail002-11.gif" alt="診療時間・外来受付時間" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail03" id="ctl00_ContentPlaceHolderContents_btnDetail03" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail103-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail003-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail003-11.gif" alt="外国人・障害者へのサポート等" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail04" id="ctl00_ContentPlaceHolderContents_btnDetail04" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail104-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail004-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail004-11.gif" alt="保険指定等" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail05" id="ctl00_ContentPlaceHolderContents_btnDetail05" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail105-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail005-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail005-11.gif" alt="専門医・施設設備" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail06" id="ctl00_ContentPlaceHolderContents_btnDetail06" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail106-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail006-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail006-11.gif" alt="検査・治療実績" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail07" id="ctl00_ContentPlaceHolderContents_btnDetail07" onmouseover="src='img11/Button/Tab/IYAKU03/IYAKU03Detail107-11_2009.gif'" onmouseout="src='img11/Button/Tab/IYAKU03/IYAKU03Detail007-11_2009.gif'" src="img11/Button/Tab/IYAKU03/IYAKU03Detail007-11_2009.gif" alt="専門外来・健康診査・予防接種" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail08" id="ctl00_ContentPlaceHolderContents_btnDetail08" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail108-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail008-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail008-11.gif" alt="在宅医療" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail09" id="ctl00_ContentPlaceHolderContents_btnDetail09" onmouseover="src='img11/Button/Tab/IYAKU01/IYAKU01Detail111-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU01/IYAKU01Detail011-11.gif'" src="img11/Button/Tab/IYAKU01/IYAKU01Detail011-11.gif" alt="人員配置等" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail10" id="ctl00_ContentPlaceHolderContents_btnDetail10" onmouseover="src='img11/Button/Tab/IYAKU03/IYAKU03Detail109-11.gif'" onmouseout="src='img11/Button/Tab/IYAKU03/IYAKU03Detail009-11.gif'" src="img11/Button/Tab/IYAKU03/IYAKU03Detail009-11.gif" alt="診療所内の設備・窓口" border="0" />
+                <input type="image" name="ctl00$ContentPlaceHolderContents$btnDetail11" id="ctl00_ContentPlaceHolderContents_btnDetail11" onmouseover="src='img11/Button/Tab/MAP/Map100-11.gif'" onmouseout="src='img11/Button/Tab/MAP/Map000-11.gif'" src="img11/Button/Tab/MAP/Map000-11.gif" alt="地図" border="0" />
+            
+</div>
+        </div>
+        <div>
+            
+                <table id="ctl00_ContentPlaceHolderContents_tblData1" class="DetailTable">
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblKaisetsuNameKana" class="DetailTitle">開設者(カナ)</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblKaisetsuNameKana" style="display:inline-block;">フシミカズアキ</span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblKaisetsuName" class="DetailTitle">開設者</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblKaisetsuName" style="display:inline-block;">伏見　一章</span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblKanNameKana" class="DetailTitle">管理者(カナ)</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblKanNameKana" style="display:inline-block;">フシミカズアキ</span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblKanName" class="DetailTitle">管理者</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblKanName" style="display:inline-block;">伏見一章</span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblKoutsu" class="DetailTitle">主な利用交通手段</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblKoutsu" style="display:inline-block;">西武鉄道 狭山線 下山口駅 徒歩 7分</span>
+                            </td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblChushajo" class="DetailTitle">駐車場</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblParking" style="display:inline-block;">駐車場あり 無料駐車場 6台</span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblHomePage" class="DetailTitle">ホームページアドレス</td>
+		<td class="DetailData">
+                                
+                                <a id="ctl00_ContentPlaceHolderContents_hlHomePageAddress" onClick="if (!(kakunin('ここからは各施設が独自に作成した情報です。埼玉県とは関係ありません。'))) { return(false); }" onkeypress="if (!(kakunin(event.keyCode))) { return(false); };" href="https://shimoyamaguchi.dental-net.jp/" target="_blank" style="display:inline-block;">https://shimoyamaguchi.dental-net.jp/</a>
+                            </td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblEmail" class="DetailTitle">電子メールアドレス</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblMailAddress" style="display:inline-block;"></span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblShinryoKamoku" class="DetailTitle" style="height: 21px">診療科目</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblShinryoKamoku" style="display:inline-block;">歯科, 歯科口腔外科</span></td>
+	</tr>
+	<tr>
+		<td id="ctl00_ContentPlaceHolderContents_tblYoyaku" class="DetailTitle">予約診療</td>
+		<td class="DetailData">
+                                <span id="ctl00_ContentPlaceHolderContents_lblYoyaku"><STRONG> 予約診療の実施 </STRONG><br/>実施していない<br/><br/></span>
+                                <span id="ctl00_ContentPlaceHolderContents_lblYoyakuShudan"><STRONG> 予約の内容 </STRONG><br/>&nbsp<STRONG> 初診・再診の予約 </STRONG><br/>&nbsp&nbsp初診, 再診<br/>&nbsp<STRONG> 診療時間の予約 </STRONG><br/>&nbsp <br/>&nbsp<STRONG> 予約の手段 </STRONG><br/>&nbsp 電話  0429415747</span>
+                                <span id="ctl00_ContentPlaceHolderContents_lblYoyakuKamoku"></span>
+                            </td>
+	</tr>
+</table>
+
+                    
+                    
+                    
+                    
+                    
+        </div>
+    </div>
+    <input type="hidden" name="ctl00$ContentPlaceHolderContents$hidMapScaleIndex" id="ctl00_ContentPlaceHolderContents_hidMapScaleIndex" />
+
+            </div>
+            <div id="Footer" style="clear:both">
+                <div id="ctl00_myFooterLink" class="FooterLink">
+                    <a id="ctl00_lnkFooter1" href="info11/info11.html#02" target="_blank">このシステムについて</a>&nbsp;
+                    <a id="ctl00_lnkFooter2" href="info11/info11.html#03" target="_blank">個人情報について</a>&nbsp;
+                    <a id="ctl00_lnkFooter3" href="info11/link/Link-11.html" target="_blank">リンク</a>&nbsp;
+                    <a id="ctl00_lnkFooter4" href="info11/info11.html#04" target="_blank">お問合せ先</a>&nbsp;
+                    
+                </div>
+                <div id="Date">
+                    <span id="ctl00_lblDate" style="display:inline-block;">2023/09/20 21:26:19</span>&nbsp;
+                </div>
+                <div id="Version">
+                    <span id="ctl00_lblVersion">Version 1.0.2</span>
+                </div>
+            </div>
+        </form> 
+    </div>
+</body>
+</html>

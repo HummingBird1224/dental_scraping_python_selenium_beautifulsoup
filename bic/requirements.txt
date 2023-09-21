@@ -1,0 +1,6 @@
+requests==2.29.0
+selenium==4.11.2
+webdriver-manager==4.0.0
+
+# install module command :  pip install -r requirements.txt
+# run command : py exec.py
