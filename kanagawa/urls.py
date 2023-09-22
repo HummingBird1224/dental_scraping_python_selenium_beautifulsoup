@@ -9,7 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from webdriver_manager.chrome import ChromeDriverManager
 
-base_url='http://www.iryo-kensaku.jp/saitama/kensaku/SimpleSearch.aspx?sy=m'
+base_url='http://www.iryo-kensaku.jp/kanagawa/kensaku/SimpleSearch.aspx?sy=m'
 WAIT_SEC=20
 
 f = open("urls.txt", "a")
@@ -70,7 +70,7 @@ def get_urls(driver, page):
       print('error')
 
 def loop_page(driver):
-    for page in range(1, 71):
+    for page in range(1, 96):
       get_urls(driver, page)
      
       table_element=driver.find_element(By.ID, 'ctl00_ContentPlaceHolderContents_grvShisetsuIchiran')
@@ -78,11 +78,12 @@ def loop_page(driver):
         next_page=table_element.find_element(By.XPATH, f"//a[text()='{page+1}']")
         next_page.click()
       else :
-        last_page=table_element.find_element(By.XPATH, "//a[text()='最後のページへ']")
+        last_page=table_element.find_element(By.XPATH, "//a[text()='最終ページへ']")
         parent_element = last_page.find_element(By.XPATH, "..")
         previous_sibling = parent_element.find_element(By.XPATH, "preceding-sibling::*[1]")
         next_ten=previous_sibling.find_element(By.TAG_NAME, 'a')
         next_ten.click()
+    print('done')
     driver.close()
 
 

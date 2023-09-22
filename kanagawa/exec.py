@@ -24,11 +24,11 @@ data = ['timestamp', 'storename', 'address_original', 'address_normalize[0]', 'a
         '施設状況一覧', '対応可能ﾅ麻酔治療一覧', '在宅医療', '連携ﾉ有無', '歯科医師(総数|常勤|非常勤)', '歯科技工士(総数|常勤|非常勤)',
         '歯科助手(総数|常勤|非常勤)', '歯科衛生士(総数|常勤|非常勤)', '前年度1日平均外来患者数', '緯度', '経度', 'page', '診療科']
 
-fc = open('saitama.csv', 'a', newline='', encoding='utf-8')
+fc = open('kanagawa.csv', 'a', newline='', encoding='utf-8')
 # Create a CSV writer object
 writer = csv.writer(fc)
 # Write the data to the CSV file
-# writer.writerow(data)
+writer.writerow(data)
 
 
 ###  Functions
@@ -243,6 +243,7 @@ def get_base_data(html):
     timeStamp = datetime.date.today()
     baseData['storename'] = html.find_element(By.ID, 'ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuName').text if len(
         html.find_elements(By.ID, 'ctl00_ContentPlaceHolderContents_ctl58_lblShisetsuName')) > 0 else 'na'
+    print('baseData')
     baseData['updated_at'] = html.find_element(By.ID, 'ctl00_ContentPlaceHolderContents_lblLastUpdateDate').text.split('最終報告日')[1] if html.find_element(By.ID, 'ctl00_ContentPlaceHolderContents_lblLastUpdateDate').text!='休業中' else '休業中' if len(html.find_elements(By.ID, 'ctl00_ContentPlaceHolderContents_lblLastUpdateDate')) > 0 else 'na'
     baseData['address'] = html.find_element(By.ID, 'ctl00_ContentPlaceHolderContents_ctl58_lblAddress').text.replace('\u3000', ' ') if len(
         html.find_elements(By.ID, 'ctl00_ContentPlaceHolderContents_ctl58_lblAddress')) > 0 else 'na'
@@ -272,11 +273,6 @@ def get_base_data(html):
 def get_service_data(html):
     serviceData=[]
     table_element = html.find_elements(By.XPATH,"//table[@class='DetailTable']")[1]
-    prescription_td = table_element.find_element(By.XPATH, "//td[text()='院内処方の有無']")
-    prescrption_el = prescription_td.find_element(By.XPATH,"./following-sibling::td")
-    if prescrption_el.text !='':
-        prescription = "院内処方の有無(" + prescrption_el.text.replace('\n',',')+ ")" 
-        serviceData.append(prescription)
     
     dperson_td = table_element.find_element(By.XPATH, "//td[text()='障害者に対するサービス内容']")
     dperson_el = dperson_td.find_element(By.XPATH,"./following-sibling::td")
@@ -297,10 +293,37 @@ def get_service_data(html):
         serviceData.append(smoking)
     
     print(serviceData)
-    return serviceData
+    return serviceData if len(serviceData)>0 else 'na'
 
 
-def get_result_data(html):
+def get_number(string):
+    match = re.search(r"\d+(\.\d+)?", string)
+    if match:
+        number = match.group()
+        return number
+    
+
+def get_system_data(html):
+    systemData={
+        "dentist":"na",
+        "hygienist":"na",
+    }
+    table_element=html.find_elements(By.XPATH,"//table[@class='DetailTable']")[1]
+    # print(table_element.get_attribute('outerHTML'))
+    staffing_td=table_element.find_element(By.XPATH, "//td[@class='DetailTitle' and contains(text(), '人員配置')]")
+    staffing_elements = staffing_td.find_element(By.XPATH,"./following-sibling::td").text.split('\n')
+    for staffing_el in staffing_elements:
+        if '歯科医師数' in staffing_el:
+            dentist=get_number(staffing_el)
+            systemData['dentist']=dentist+'|-|-' if dentist else 'na'
+        elif '歯科衛生士数' in staffing_el:
+            hygienist=get_number(staffing_el)
+            systemData['hygienist']=hygienist+'|-|-' if hygienist else 'na'
+
+    print(systemData)
+    return systemData
+
+def  get_treatment_data(html):
     table_element = html.find_elements(By.XPATH,"//table[@class='DetailTable']")[1]
     dental_td = table_element.find_element(By.XPATH, "//td[text()='歯科領域']")
     dental_el = dental_td.find_element(By.XPATH,"./following-sibling::td")
@@ -310,12 +333,12 @@ def get_result_data(html):
     oral_el = oral_td.find_element(By.XPATH,"./following-sibling::td")
     oral=oral_el.text.replace('\n',',') if oral_el.text != '' else 'na' 
     
-    resultData={
+    treatmentData={
         "dental":dental,
         "oral":oral
     }
-    print(resultData)
-    return resultData
+    print(treatmentData)
+    return treatmentData
 
 def get_homecare_data(html):
     table_element = html.find_elements(By.XPATH,"//table[@class='DetailTable']")[1]
@@ -323,7 +346,7 @@ def get_homecare_data(html):
     homecare_el = homecare_td.find_element(By.XPATH,"./following-sibling::td")
     homecare=homecare_el.text.replace('\n',',') if homecare_el.text != '' else 'na' 
 
-    collaboration_td = table_element.find_element(By.XPATH, "//td[text()='他の施設との在宅医療連携の有無']")
+    collaboration_td = table_element.find_element(By.XPATH, "//td[text()='他の施設との連携の有無']")
     collaboration_el = collaboration_td.find_element(By.XPATH,"./following-sibling::td")
     collaboration=collaboration_el.text.replace('\n',',') if collaboration_el.text != '' else 'na' 
     
@@ -334,36 +357,17 @@ def get_homecare_data(html):
     print(homecareData)
     return homecareData
 
-def get_number(string):
-    match = re.search(r"\d+(\.\d+)?", string)
-    if match:
-        number = match.group()
-        return number
-    else:
-        print("No number found in the string")
 
-def get_staffing_data(html):
-    staffingData={
-        "dentist":"na",
-        "hygienist":"na",
-    }
+
+def get_result_data(html):
     table_element=html.find_elements(By.XPATH,"//table[@class='DetailTable']")[1]
-    staffing_td=table_element.find_element(By.XPATH, "//td[@class='DetailTitle' and contains(text(), '人員配置')]")
-    staffing_elements = staffing_td.find_element(By.XPATH,"./following-sibling::td").text.split('\n')
-    for staffing_el in staffing_elements:
-        if '歯科医師数' in staffing_el:
-            dentist=get_number(staffing_el)
-            staffingData['dentist']=dentist+'|-|-' if dentist else 'na'
-        elif '歯科衛生士数' in staffing_el:
-            hygienist=get_number(staffing_el)
-            staffingData['hygienist']=hygienist+'|-|-' if hygienist else 'na'
     day_patients_td=table_element.find_element(By.XPATH, "//td[@class='DetailTitle' and contains(text(), '日当りの患者数')]")
-    day_patients_el = day_patients_td.find_element(By.XPATH,"./following-sibling::td").text.split('外来患者数')[1]
+    day_patients_el = day_patients_td.find_element(By.XPATH,"./following-sibling::td").text.split('外来患者数')[1] if len(day_patients_td.find_element(By.XPATH,"./following-sibling::td").text.split('外来患者数'))>1 else 'na'
     day_patients=get_number(day_patients_el)
-    staffingData['day_patients']=day_patients if day_patients else 'na'
+    resultData=day_patients if day_patients else 'na'
 
-    print(staffingData)
-    return staffingData
+    print(resultData)
+    return resultData
 
 
 def main():
@@ -379,25 +383,29 @@ def main():
 
         baseData = get_base_data(driver)
         if baseData:
-            service_tab = driver.find_element(By.XPATH,"//input[@alt='外国人・障害者へのサポート等']")
+            service_tab = driver.find_element(By.ID,"ctl00_ContentPlaceHolderContents_btnDetail03")
             service_tab.click()
 
         serviceData = get_service_data(driver)
         if serviceData:
-            result_tab = driver.find_element(By.XPATH,"//input[@alt='検査・治療実績']")
-            result_tab.click()
+            system_tab = driver.find_element(By.XPATH,"//input[@alt='提供する医療の体制']")
+            system_tab.click()
 
-        resultData = get_result_data(driver)
-        if resultData:
-            homecare_tab = driver.find_element(By.XPATH,"//input[@alt='在宅医療']")
+        systemData = get_system_data(driver)
+        if systemData:
+            treatment_tab = driver.find_element(By.XPATH,"//input[@alt='対応する疾患及び治療１']")
+            treatment_tab.click()
+
+        treatmentData = get_treatment_data(driver)
+        if treatmentData:
+            homecare_tab = driver.find_element(By.XPATH,"//input[@alt='対応する在宅医療']")
             homecare_tab.click()
-
-        homecareData = get_homecare_data(driver)
+        homecareData=get_homecare_data(driver)
         if homecareData:
-            staffing_tab = driver.find_element(By.XPATH,"//input[@alt='人員配置等']")
-            staffing_tab.click()
-        staffingData=get_staffing_data(driver)
-        if staffingData:
+            result_tab = driver.find_element(By.XPATH,"//input[@alt='実績・結果']")
+            result_tab.click()
+        resultData=get_result_data(driver)
+        if resultData:
             data = [
                 baseData['timestamp'],
                 baseData['storename'],
@@ -409,19 +417,19 @@ def main():
                 'na',
                 baseData['founder_name'],
                 baseData['admin_name'],
-                resultData['dental'],
-                resultData['oral'],
+                treatmentData['dental'],
+                treatmentData['oral'],
                 'na',
                 'na',
                 serviceData,
                 'na',
                 homecareData['homecare'],
                 homecareData['collaboration'],
-                staffingData['dentist'],
+                systemData['dentist'],
                 'na',
                 'na',
-                staffingData['hygienist'],
-                staffingData['day_patients'],
+                systemData['hygienist'],
+                resultData,
                 'na',
                 'na',
                 page,
